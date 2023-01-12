@@ -181,7 +181,7 @@ def linear_regression():
     plt.ylabel('Percentage Change')
     plt.title('Twitter Sentiment vs Stock Price')
     text = f"R-Squared = {r2:.3f}"
-    plt.text(1, 1, text, transform=plt.gca().transAxes)
+    plt.text(.8, 1, text, transform=plt.gca().transAxes)
 
     return plt.show()
 
